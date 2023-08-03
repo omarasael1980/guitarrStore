@@ -22,7 +22,8 @@ Configura las variables de entorno necesarias para la conexión a la base de dat
 ### Iniciar el servidor
   
 
-```npm start
+```
+npm start
  
 ```
 ## Consulta de Datos de Guitarras
@@ -46,23 +47,20 @@ GET https://guitarla-strapi-vm6q.onrender.com/blog
 GET https://guitarla-strapi-vm6q.onrender.com/blog/:id
  
 ```
-## Documentación API
-Puedes encontrar la documentación completa de la API aquí.
+
 
 ## Contribución
 ¡Gracias por considerar contribuir a Guitarla Strapi! Si deseas enviar alguna mejora o corrección, por favor sigue estos pasos:
 
-Crea un fork del repositorio.
-Crea una nueva rama con el nombre de la función o corrección: git checkout -b feature/nueva-funcion o git checkout -b fix/correccion.
-Realiza los cambios necesarios y commitea los cambios: git commit -m 'Añadir nueva función'.
-Envía los cambios a tu fork: git push origin feature/nueva-funcion.
-Abre un Pull Request en el repositorio original.
+1. Crea un fork del repositorio.
+2. Crea una nueva rama con el nombre de la función o corrección: git checkout -b feature/nueva-funcion o git checkout -b fix/correccion.
+3. Realiza los cambios necesarios y commitea los cambios: git commit -m 'Añadir nueva función'.
+4. Envía los cambios a tu fork: git push origin feature/nueva-funcion.
+5. Abre un Pull Request en el repositorio original.
 
-Reportar problemas
+## Reportar problemas
 Si encuentras algún problema o tienes alguna sugerencia, por favor crea un ***issue*** en el repositorio.
 
-Licencia
-Este proyecto está bajo la Licencia MIT.
 
-Contacto
-Si tienes alguna pregunta o comentario, no dudes en ponerte en contacto con nosotros en contact@guitarla.com.
+## Contacto
+Si tienes alguna pregunta o comentario, no dudes en ponerte en contacto con nosotros en omarasael80@gmail.com
