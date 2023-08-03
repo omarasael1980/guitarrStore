@@ -1,57 +1,68 @@
-# 🚀 Getting started with Strapi
 
-Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html) (CLI) which lets you scaffold and manage your project in seconds.
 
-### `develop`
 
-Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-develop)
+# 🚀 GuitarLA Strapi API 
 
-```
-npm run develop
-# or
-yarn develop
-```
+Esta API proporciona datos sobre guitarras, incluyendo su nombre, precio, características, etc. También incluye un blog relacionado con guitarras para el sitio web de un eCommerce de venta de guitarras.
+Esta API fue realizada para un E-commerce de venta de guitarras GUITAR-LA se alimente de estos datos, dichos proyectos los puedes encontrar en mi github, hay uno realizado en Remix, otro en NextJS y otro en Astro; todos ellos como parte de mi preparación en un curso de React. 
 
-### `start`
+## Requisitos previos
+Node.js (versión 18.17.0)
+PostgreSQL (versión 14) configurado con las credenciales adecuadas.
 
-Start your Strapi application with autoReload disabled. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-start)
-
-```
-npm run start
-# or
-yarn start
+## Instalación
 ```
 
-### `build`
-
-Build your admin panel. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-build)
+Clona este repositorio en tu máquina local.
+Ejecuta npm install para instalar las dependencias necesarias.
+Configura las variables de entorno necesarias para la conexión a la base de datos PostgreSQL.
 
 ```
-npm run build
-# or
-yarn build
+## Uso
+### Iniciar el servidor
+  
+
+```npm start
+ 
+```
+## Consulta de Datos de Guitarras
+ 
+
+```# Obtener todas las guitarras
+GET https://guitarla-strapi-vm6q.onrender.com/guitarras
+
+# Obtener una guitarra por ID
+GET https://guitarla-strapi-vm6q.onrender.com/guitarras/:id
+ 
 ```
 
-## ⚙️ Deployment
+## Consulta del Blog de Guitarras
+ 
+  
+```# Obtener todos los artículos del blog
+GET https://guitarla-strapi-vm6q.onrender.com/blog
 
-Strapi gives you many possible deployment options for your project. Find the one that suits you on the [deployment section of the documentation](https://docs.strapi.io/developer-docs/latest/setup-deployment-guides/deployment.html).
+# Obtener un artículo del blog por ID
+GET https://guitarla-strapi-vm6q.onrender.com/blog/:id
+ 
+```
+## Documentación API
+Puedes encontrar la documentación completa de la API aquí.
 
-## 📚 Learn more
+## Contribución
+¡Gracias por considerar contribuir a Guitarla Strapi! Si deseas enviar alguna mejora o corrección, por favor sigue estos pasos:
 
-- [Resource center](https://strapi.io/resource-center) - Strapi resource center.
-- [Strapi documentation](https://docs.strapi.io) - Official Strapi documentation.
-- [Strapi tutorials](https://strapi.io/tutorials) - List of tutorials made by the core team and the community.
-- [Strapi blog](https://docs.strapi.io) - Official Strapi blog containing articles made by the Strapi team and the community.
-- [Changelog](https://strapi.io/changelog) - Find out about the Strapi product updates, new features and general improvements.
+Crea un fork del repositorio.
+Crea una nueva rama con el nombre de la función o corrección: git checkout -b feature/nueva-funcion o git checkout -b fix/correccion.
+Realiza los cambios necesarios y commitea los cambios: git commit -m 'Añadir nueva función'.
+Envía los cambios a tu fork: git push origin feature/nueva-funcion.
+Abre un Pull Request en el repositorio original.
 
-Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/strapi). Your feedback and contributions are welcome!
+Reportar problemas
+Si encuentras algún problema o tienes alguna sugerencia, por favor crea un ***issue*** en el repositorio.
 
-## ✨ Community
+Licencia
+Este proyecto está bajo la Licencia MIT.
 
-- [Discord](https://discord.strapi.io) - Come chat with the Strapi community including the core team.
-- [Forum](https://forum.strapi.io/) - Place to discuss, ask questions and find answers, show your Strapi project and get feedback or just talk with other Community members.
-- [Awesome Strapi](https://github.com/strapi/awesome-strapi) - A curated list of awesome things related to Strapi.
-
----
-
-<sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
+Contacto
+Si tienes alguna pregunta o comentario, no dudes en ponerte en contacto con nosotros en contact@guitarla.com.
